@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+h1,
+h2 {
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background: none;
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+button {
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+}
+
+img {
+  user-select: none;
+}

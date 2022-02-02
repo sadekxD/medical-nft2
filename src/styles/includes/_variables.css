@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Huriken";
+  src: url("./fonts/huriken.ttf");
+  font-weight: normal;
+}
+
+:root {
+  /* Colors */
+  --primary-color: #578eff;
+  --secondary-color: #65d9f3;
+
+  /* Text Colors */
+  --primary-text-color: #ffffff;
+  --secondary-text-color: rgba(255, 255, 255, 0.8);
+
+  /* Font Families */
+  --primary-font-family: "Exo", sans-serif;
+  --secondary-font-family: "Huriken", sans-serif;
+}
