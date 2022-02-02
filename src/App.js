@@ -49,7 +49,7 @@ const App = () => {
 		},
 		{
 			question: "PUBLIC MINT DATE?",
-			answer: "The Public Mint date will be on Feb 11 2022",
+			answer: "The Public Mint date will be on Feb 11th 2022",
 		},
 		{
 			question: "PRE-SALE DATE?",
